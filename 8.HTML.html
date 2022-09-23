@@ -1,0 +1,57 @@
+thead >>> table
+tr >>> table row
+th >>> column/cell header
+td >>> table/ cell/ data
+No th
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    td,
+    th {
+        padding: 16px;
+    }
+</style>
+<table>
+    <tbody>
+        <thead>
+            <tr>
+                <header>Health Chart</header>
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After Eating</th>
+            </tr>
+            <tr>
+                <th>Minimun</th>
+                <th>Maximum</th>
+                <th>2 hours after eating</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less tahn 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 123</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
